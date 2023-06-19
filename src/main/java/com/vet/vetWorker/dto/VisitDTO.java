@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @Setter
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class VisitDTO {
+
     private Long id;
 
     private Long visitId;
